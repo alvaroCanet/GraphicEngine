@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glew-1.10.0">
+      <UniqueIdentifier>{BF05840D-2BBB-FC02-B4AF-F6D92064F306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew-1.10.0\src">
+      <UniqueIdentifier>{568B9A97-C216-085C-CB27-8B503732645C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw-3.0.3">
+      <UniqueIdentifier>{1411A851-00C9-E99E-69D0-C2FA55A7848F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glfw-3.0.3\src">
+      <UniqueIdentifier>{2B39CE1A-1707-C220-009B-3247EC079E85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua-5.2.2">
+      <UniqueIdentifier>{49D254A8-B53C-091F-FE7A-BAC46A24E773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua-5.2.2\src">
+      <UniqueIdentifier>{E08CB28F-4C4D-2EC6-1588-7743810773A2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\deps\glfw-3.0.3\src\internal.h">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\glfw-3.0.3\src\win32_platform.h">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lapi.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lauxlib.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lcode.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lctype.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\ldebug.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\ldo.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lfunc.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lgc.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\llex.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\llimits.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lmem.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lobject.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lopcodes.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lparser.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lstate.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lstring.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\ltable.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\ltm.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lua.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lua.hpp">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\luaconf.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lualib.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lundump.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lvm.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\lua-5.2.2\src\lzio.h">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\deps\glew-1.10.0\src\glew.c">
+      <Filter>glew-1.10.0\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\clipboard.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\context.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\gamma.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\init.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\input.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\joystick.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\monitor.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\time.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\wgl_context.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_clipboard.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_gamma.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_init.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_joystick.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_monitor.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_time.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\win32_window.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\glfw-3.0.3\src\window.c">
+      <Filter>glfw-3.0.3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lapi.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lauxlib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lbaselib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lbitlib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lcode.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lcorolib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lctype.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ldblib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ldebug.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ldo.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ldump.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lfunc.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lgc.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\linit.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\liolib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\llex.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lmathlib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lmem.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\loadlib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lobject.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lopcodes.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\loslib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lparser.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lstate.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lstring.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lstrlib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ltable.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ltablib.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\ltm.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lua.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\luac.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lundump.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lvm.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\lua-5.2.2\src\lzio.c">
+      <Filter>lua-5.2.2\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

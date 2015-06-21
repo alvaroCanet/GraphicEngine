@@ -1,0 +1,121 @@
+﻿Build started 20/06/2015 20:48:22.
+     1>Project "D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\GLBase_deps.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\deps\glew-1.10.0\include" /I"..\deps\glfw-3.0.3\include" /I"..\deps\glm-0.9.4.6" /I..\deps\AntTweakBar\include /I..\include /Zi /nologo /W3 /WX- /Ox /Oi /Oy- /D GLEW_STATIC /D GLEW_NO_GLU /D _GLFW_USE_OPENGL /D _GLFW_WIN32=1 /D _GLFW_WGL=1 /D _CRT_SECURE_NO_WARNINGS /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\GLBase_deps\\" /Fd"obj\Release\GLBase_deps\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\deps\glew-1.10.0\src\glew.c" "..\deps\glfw-3.0.3\src\clipboard.c" "..\deps\glfw-3.0.3\src\context.c" "..\deps\glfw-3.0.3\src\gamma.c" "..\deps\glfw-3.0.3\src\init.c" "..\deps\glfw-3.0.3\src\input.c" "..\deps\glfw-3.0.3\src\joystick.c" "..\deps\glfw-3.0.3\src\monitor.c" "..\deps\glfw-3.0.3\src\time.c" "..\deps\glfw-3.0.3\src\wgl_context.c" "..\deps\glfw-3.0.3\src\win32_clipboard.c" "..\deps\glfw-3.0.3\src\win32_gamma.c" "..\deps\glfw-3.0.3\src\win32_init.c" "..\deps\glfw-3.0.3\src\win32_joystick.c" "..\deps\glfw-3.0.3\src\win32_monitor.c" "..\deps\glfw-3.0.3\src\win32_time.c" "..\deps\glfw-3.0.3\src\win32_window.c" "..\deps\glfw-3.0.3\src\window.c" "..\deps\lua-5.2.2\src\lapi.c" "..\deps\lua-5.2.2\src\lauxlib.c" "..\deps\lua-5.2.2\src\lbaselib.c" "..\deps\lua-5.2.2\src\lbitlib.c" "..\deps\lua-5.2.2\src\lcode.c" "..\deps\lua-5.2.2\src\lcorolib.c" "..\deps\lua-5.2.2\src\lctype.c" "..\deps\lua-5.2.2\src\ldblib.c" "..\deps\lua-5.2.2\src\ldebug.c" "..\deps\lua-5.2.2\src\ldo.c" "..\deps\lua-5.2.2\src\ldump.c" "..\deps\lua-5.2.2\src\lfunc.c" "..\deps\lua-5.2.2\src\lgc.c" "..\deps\lua-5.2.2\src\linit.c" "..\deps\lua-5.2.2\src\liolib.c" "..\deps\lua-5.2.2\src\llex.c" "..\deps\lua-5.2.2\src\lmathlib.c" "..\deps\lua-5.2.2\src\lmem.c" "..\deps\lua-5.2.2\src\loadlib.c" "..\deps\lua-5.2.2\src\lobject.c" "..\deps\lua-5.2.2\src\lopcodes.c" "..\deps\lua-5.2.2\src\loslib.c" "..\deps\lua-5.2.2\src\lparser.c" "..\deps\lua-5.2.2\src\lstate.c" "..\deps\lua-5.2.2\src\lstring.c" "..\deps\lua-5.2.2\src\lstrlib.c" "..\deps\lua-5.2.2\src\ltable.c" "..\deps\lua-5.2.2\src\ltablib.c" "..\deps\lua-5.2.2\src\ltm.c" "..\deps\lua-5.2.2\src\lua.c" "..\deps\lua-5.2.2\src\luac.c" "..\deps\lua-5.2.2\src\lundump.c" "..\deps\lua-5.2.2\src\lvm.c" "..\deps\lua-5.2.2\src\lzio.c"
+         glew.c
+         clipboard.c
+         context.c
+         gamma.c
+         init.c
+         input.c
+         joystick.c
+         monitor.c
+         time.c
+         wgl_context.c
+         win32_clipboard.c
+         win32_gamma.c
+         win32_init.c
+         win32_joystick.c
+         win32_monitor.c
+         win32_time.c
+         win32_window.c
+         window.c
+         lapi.c
+         lauxlib.c
+         Generating Code...
+         Compiling...
+         lbaselib.c
+         lbitlib.c
+         lcode.c
+         lcorolib.c
+         lctype.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+         lobject.c
+         lopcodes.c
+         loslib.c
+         Generating Code...
+         Compiling...
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+         ltable.c
+         ltablib.c
+         ltm.c
+         lua.c
+         luac.c
+         lundump.c
+         lvm.c
+         lzio.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"bin\GLBase_deps.lib" /NOLOGO obj\Release\GLBase_deps\glew.obj
+         obj\Release\GLBase_deps\clipboard.obj
+         obj\Release\GLBase_deps\context.obj
+         obj\Release\GLBase_deps\gamma.obj
+         obj\Release\GLBase_deps\init.obj
+         obj\Release\GLBase_deps\input.obj
+         obj\Release\GLBase_deps\joystick.obj
+         obj\Release\GLBase_deps\monitor.obj
+         obj\Release\GLBase_deps\time.obj
+         obj\Release\GLBase_deps\wgl_context.obj
+         obj\Release\GLBase_deps\win32_clipboard.obj
+         obj\Release\GLBase_deps\win32_gamma.obj
+         obj\Release\GLBase_deps\win32_init.obj
+         obj\Release\GLBase_deps\win32_joystick.obj
+         obj\Release\GLBase_deps\win32_monitor.obj
+         obj\Release\GLBase_deps\win32_time.obj
+         obj\Release\GLBase_deps\win32_window.obj
+         obj\Release\GLBase_deps\window.obj
+         obj\Release\GLBase_deps\lapi.obj
+         obj\Release\GLBase_deps\lauxlib.obj
+         obj\Release\GLBase_deps\lbaselib.obj
+         obj\Release\GLBase_deps\lbitlib.obj
+         obj\Release\GLBase_deps\lcode.obj
+         obj\Release\GLBase_deps\lcorolib.obj
+         obj\Release\GLBase_deps\lctype.obj
+         obj\Release\GLBase_deps\ldblib.obj
+         obj\Release\GLBase_deps\ldebug.obj
+         obj\Release\GLBase_deps\ldo.obj
+         obj\Release\GLBase_deps\ldump.obj
+         obj\Release\GLBase_deps\lfunc.obj
+         obj\Release\GLBase_deps\lgc.obj
+         obj\Release\GLBase_deps\linit.obj
+         obj\Release\GLBase_deps\liolib.obj
+         obj\Release\GLBase_deps\llex.obj
+         obj\Release\GLBase_deps\lmathlib.obj
+         obj\Release\GLBase_deps\lmem.obj
+         obj\Release\GLBase_deps\loadlib.obj
+         obj\Release\GLBase_deps\lobject.obj
+         obj\Release\GLBase_deps\lopcodes.obj
+         obj\Release\GLBase_deps\loslib.obj
+         obj\Release\GLBase_deps\lparser.obj
+         obj\Release\GLBase_deps\lstate.obj
+         obj\Release\GLBase_deps\lstring.obj
+         obj\Release\GLBase_deps\lstrlib.obj
+         obj\Release\GLBase_deps\ltable.obj
+         obj\Release\GLBase_deps\ltablib.obj
+         obj\Release\GLBase_deps\ltm.obj
+         obj\Release\GLBase_deps\lua.obj
+         obj\Release\GLBase_deps\luac.obj
+         obj\Release\GLBase_deps\lundump.obj
+         obj\Release\GLBase_deps\lvm.obj
+         obj\Release\GLBase_deps\lzio.obj
+     1>lua.obj : warning LNK4006: _main already defined in luac.obj; second definition ignored
+         GLBase_deps.vcxproj -> D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_deps.lib
+     1>Done Building Project "D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\GLBase_deps.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.32

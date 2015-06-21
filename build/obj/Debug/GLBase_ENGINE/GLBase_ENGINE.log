@@ -1,0 +1,51 @@
+﻿Compilación iniciada a las 04/07/2014 14:00:27.
+     1>Proyecto "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\GLBase_ENGINE.vcxproj" en el nodo 2 (Build destinos).
+     1>InitializeBuildStatus:
+         Se creará "obj\Debug\GLBase_ENGINE\GLBase_ENGINE.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\deps\glew-1.10.0\include" /I"..\deps\glfw-3.0.3\include" /I"..\deps\glm-0.9.4.6" /I..\deps\AntTweakBar\include /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D GLEW_NO_GLU /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\GLBase_ENGINE\\" /Fd"bin\GLBase_ENGINE_d.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\SkyBox.cpp
+         SkyBox.cpp
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\include\esat\core\tools\loadtextures.h(559): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : vea la declaración de 'fopen'
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\include\esat\core\tools\loadtextures.h(621): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : vea la declaración de 'fopen'
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\include\esat\core\tools\loadtextures.h(659): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : vea la declaración de 'fopen'
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\include\esat\core\tools\loadtextures.h(4552): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : vea la declaración de 'fopen'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"bin\GLBase_ENGINE_d.lib" /NOLOGO obj\Debug\GLBase_ENGINE\AttributeInfo.obj
+         obj\Debug\GLBase_ENGINE\Buffer.obj
+         obj\Debug\GLBase_ENGINE\Camera.obj
+         obj\Debug\GLBase_ENGINE\Drawable.obj
+         obj\Debug\GLBase_ENGINE\GPU.obj
+         obj\Debug\GLBase_ENGINE\Geometry.obj
+         obj\Debug\GLBase_ENGINE\Material.obj
+         obj\Debug\GLBase_ENGINE\MaterialSkyBox.obj
+         obj\Debug\GLBase_ENGINE\Material_01.obj
+         obj\Debug\GLBase_ENGINE\Material_Ambient.obj
+         obj\Debug\GLBase_ENGINE\Material_Diffuse.obj
+         obj\Debug\GLBase_ENGINE\Material_Shadow.obj
+         obj\Debug\GLBase_ENGINE\Material_Specular.obj
+         obj\Debug\GLBase_ENGINE\ShadowMaterialFinal.obj
+         obj\Debug\GLBase_ENGINE\Node.obj
+         obj\Debug\GLBase_ENGINE\ObjLoader.obj
+         obj\Debug\GLBase_ENGINE\Referenced.obj
+         obj\Debug\GLBase_ENGINE\SkyBox.obj
+         obj\Debug\GLBase_ENGINE\Texture.obj
+         obj\Debug\GLBase_ENGINE\UniformBlock.obj
+         obj\Debug\GLBase_ENGINE\UniformBlockIndex.obj
+         obj\Debug\GLBase_ENGINE\Visitor.obj
+         obj\Debug\GLBase_ENGINE\core_clock.obj
+         obj\Debug\GLBase_ENGINE\objeto.obj
+         obj\Debug\GLBase_ENGINE\script.obj
+         obj\Debug\GLBase_ENGINE\window.obj
+         GLBase_ENGINE.vcxproj -> C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_ENGINE_d.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "obj\Debug\GLBase_ENGINE\GLBase_ENGINE.unsuccessfulbuild".
+         Aplicando tarea Touch a "obj\Debug\GLBase_ENGINE\GLBase_ENGINE.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\GLBase_ENGINE.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.63

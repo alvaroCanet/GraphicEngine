@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{484FDAA3-B40F-56DA-7D4A-9F57E9C99AB6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GLBase_ENGINE</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\Debug\GLBase_ENGINE\</IntDir>
+    <TargetName>GLBase_ENGINE_d</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>bin\</OutDir>
+    <IntDir>obj\Release\GLBase_ENGINE\</IntDir>
+    <TargetName>GLBase_ENGINE</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GLEW_NO_GLU;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\deps\glew-1.10.0\include;..\deps\glfw-3.0.3\include;..\deps\glm-0.9.4.6;..\deps\AntTweakBar\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)GLBase_ENGINE_d.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>GLEW_STATIC;GLEW_NO_GLU;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\deps\glew-1.10.0\include;..\deps\glfw-3.0.3\include;..\deps\glm-0.9.4.6;..\deps\AntTweakBar\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>GLEW_STATIC;GLEW_NO_GLU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\deps\glew-1.10.0\include;..\deps\glfw-3.0.3\include;..\deps\glm-0.9.4.6;..\deps\AntTweakBar\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>GLEW_STATIC;GLEW_NO_GLU;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\deps\glew-1.10.0\include;..\deps\glfw-3.0.3\include;..\deps\glm-0.9.4.6;..\deps\AntTweakBar\include;..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ESAT\core\AttributeInfo.h" />
+    <ClInclude Include="..\include\ESAT\core\Buffer.h" />
+    <ClInclude Include="..\include\ESAT\core\Camera.h" />
+    <ClInclude Include="..\include\ESAT\core\Drawable.h" />
+    <ClInclude Include="..\include\ESAT\core\GPU.h" />
+    <ClInclude Include="..\include\ESAT\core\Geometry.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\MaterialSkybox.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_01.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Ambient.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Diffuse.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Shadow.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Specular.h" />
+    <ClInclude Include="..\include\ESAT\core\Materials\ShadowMaterialFinal.h" />
+    <ClInclude Include="..\include\ESAT\core\Node.h" />
+    <ClInclude Include="..\include\ESAT\core\ObjLoader.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShader.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderAmbient.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderDiffuse.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderShadow.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSimpleMaterial.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSkyBox.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSpecular.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\Shadow.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShader.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderAmbient.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderDiffuse.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderShadow.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSimpleMaterial.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSkyBox.h" />
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSpecular.h" />
+    <ClInclude Include="..\include\ESAT\core\SkyBox.h" />
+    <ClInclude Include="..\include\ESAT\core\Texture.h" />
+    <ClInclude Include="..\include\ESAT\core\Tools\Input.h" />
+    <ClInclude Include="..\include\ESAT\core\Tools\LoadTextures.h" />
+    <ClInclude Include="..\include\ESAT\core\Tools\Ptr_Tools.h" />
+    <ClInclude Include="..\include\ESAT\core\UniformBlock.h" />
+    <ClInclude Include="..\include\ESAT\core\UniformBlockIndex.h" />
+    <ClInclude Include="..\include\ESAT\core\Visitor.h" />
+    <ClInclude Include="..\include\ESAT\core\clock.h" />
+    <ClInclude Include="..\include\ESAT\core\data.h" />
+    <ClInclude Include="..\include\ESAT\core\objeto.h" />
+    <ClInclude Include="..\include\ESAT\core\ptr\Ref_ptr.h" />
+    <ClInclude Include="..\include\ESAT\core\ptr\Referenced.h" />
+    <ClInclude Include="..\include\ESAT\core\ptr\Scoped_array.h" />
+    <ClInclude Include="..\include\ESAT\core\ptr\Scoped_ptr.h" />
+    <ClInclude Include="..\include\ESAT\core\script.h" />
+    <ClInclude Include="..\include\ESAT\core\type_defines.h" />
+    <ClInclude Include="..\include\ESAT\core\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AttributeInfo.cpp" />
+    <ClCompile Include="..\src\Buffer.cpp" />
+    <ClCompile Include="..\src\Camera.cpp" />
+    <ClCompile Include="..\src\Drawable.cpp" />
+    <ClCompile Include="..\src\GPU.cpp" />
+    <ClCompile Include="..\src\Geometry.cpp" />
+    <ClCompile Include="..\src\Materials\Material.cpp" />
+    <ClCompile Include="..\src\Materials\MaterialSkyBox.cpp" />
+    <ClCompile Include="..\src\Materials\Material_01.cpp" />
+    <ClCompile Include="..\src\Materials\Material_Ambient.cpp" />
+    <ClCompile Include="..\src\Materials\Material_Diffuse.cpp" />
+    <ClCompile Include="..\src\Materials\Material_Shadow.cpp" />
+    <ClCompile Include="..\src\Materials\Material_Specular.cpp" />
+    <ClCompile Include="..\src\Materials\ShadowMaterialFinal.cpp" />
+    <ClCompile Include="..\src\Node.cpp" />
+    <ClCompile Include="..\src\ObjLoader.cpp" />
+    <ClCompile Include="..\src\SkyBox.cpp" />
+    <ClCompile Include="..\src\Texture.cpp" />
+    <ClCompile Include="..\src\UniformBlock.cpp" />
+    <ClCompile Include="..\src\UniformBlockIndex.cpp" />
+    <ClCompile Include="..\src\Visitor.cpp" />
+    <ClCompile Include="..\src\core_clock.cc" />
+    <ClCompile Include="..\src\objeto.cpp" />
+    <ClCompile Include="..\src\script.cpp" />
+    <ClCompile Include="..\src\window.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

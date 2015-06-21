@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT">
+      <UniqueIdentifier>{C58CC869-B1EF-570E-5A75-90C446B72391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core">
+      <UniqueIdentifier>{5D001328-C916-11BE-128E-9CDF7EE3E145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\Materials">
+      <UniqueIdentifier>{6EDB1730-DAE8-4516-63CF-4101CFDB11CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\Shaders">
+      <UniqueIdentifier>{36322C2B-A2F4-5FB5-EBA4-EE4157A63893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\Shaders\Fragment">
+      <UniqueIdentifier>{19D45095-0510-54FF-6E22-6CF65A7DFC19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\Shaders\Vertex">
+      <UniqueIdentifier>{03D01305-EF20-FF46-1885-ED08043592B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\Tools">
+      <UniqueIdentifier>{9D560C15-098E-54AC-1298-B8CF7E4E7BA5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ESAT\core\ptr">
+      <UniqueIdentifier>{82984100-EE04-FDFA-B7F8-945823241F63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Materials">
+      <UniqueIdentifier>{3E4A7D95-AA0A-F9CB-7345-4249DFC43DA8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ESAT\core\AttributeInfo.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Buffer.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Camera.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Drawable.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\GPU.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Geometry.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\MaterialSkybox.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_01.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Ambient.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Diffuse.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Shadow.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\Material_Specular.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Materials\ShadowMaterialFinal.h">
+      <Filter>include\ESAT\core\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Node.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\ObjLoader.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShader.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderAmbient.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderDiffuse.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderShadow.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSimpleMaterial.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSkyBox.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Fragment\FragmentShaderSpecular.h">
+      <Filter>include\ESAT\core\Shaders\Fragment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\Shadow.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShader.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderAmbient.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderDiffuse.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderShadow.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSimpleMaterial.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSkyBox.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Shaders\Vertex\VertexShaderSpecular.h">
+      <Filter>include\ESAT\core\Shaders\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\SkyBox.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Texture.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Tools\Input.h">
+      <Filter>include\ESAT\core\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Tools\LoadTextures.h">
+      <Filter>include\ESAT\core\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Tools\Ptr_Tools.h">
+      <Filter>include\ESAT\core\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\UniformBlock.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\UniformBlockIndex.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\Visitor.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\clock.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\data.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\objeto.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\ptr\Ref_ptr.h">
+      <Filter>include\ESAT\core\ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\ptr\Referenced.h">
+      <Filter>include\ESAT\core\ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\ptr\Scoped_array.h">
+      <Filter>include\ESAT\core\ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\ptr\Scoped_ptr.h">
+      <Filter>include\ESAT\core\ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\script.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\type_defines.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ESAT\core\window.h">
+      <Filter>include\ESAT\core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AttributeInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Drawable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GPU.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Geometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\MaterialSkyBox.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material_01.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material_Ambient.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material_Diffuse.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material_Shadow.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\Material_Specular.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Materials\ShadowMaterialFinal.cpp">
+      <Filter>src\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ObjLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SkyBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UniformBlock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UniformBlockIndex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Visitor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core_clock.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objeto.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\script.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\window.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

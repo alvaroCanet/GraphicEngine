@@ -1,0 +1,23 @@
+﻿Compilación iniciada a las 04/07/2014 16:21:48.
+     1>Proyecto "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\Shadows.vcxproj" en el nodo 2 (Build destinos).
+     1>InitializeBuildStatus:
+         Se creará "obj\Debug\Shadows\Shadows.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\deps\glew-1.10.0\include" /I"..\deps\glfw-3.0.3\include" /I"..\deps\glm-0.9.4.6" /I..\deps\AntTweakBar\include /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D GLEW_NO_GLU /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\Shadows\\" /Fd"bin\Shadows_d.pdb" /Gd /TP /analyze- /errorReport:prompt ..\testsEngine\Shadows\main.cc
+         main.cc
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\include\esat\core\tools\input.h(30): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\testsengine\shadows\main.cc(138): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\alvaro\desktop\tercero\prog_motores_grafic\engine\enginej.lgeneric\gl_base\testsengine\shadows\main.cc(140): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Shadows_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\deps\AntTweakBar\lib opengl32.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Shadows_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Shadows_d.lib" /MACHINE:X86 obj\Debug\Shadows\main.obj
+         C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_deps_d.lib
+         C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_ENGINE_d.lib
+         Shadows.vcxproj -> C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\Shadows_d.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "obj\Debug\Shadows\Shadows.unsuccessfulbuild".
+         Aplicando tarea Touch a "obj\Debug\Shadows\Shadows.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\Shadows.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:02.51

@@ -1,0 +1,11 @@
+﻿Compilación iniciada a las 04/07/2014 10:44:23.
+     1>Proyecto "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\00_basic.vcxproj" en el nodo 2 (Build destinos).
+     1>InitializeBuildStatus:
+         Se creará "obj\Debug\00_basic\00_basic.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"..\deps\glew-1.10.0\include" /I"..\deps\glfw-3.0.3\include" /I"..\deps\glm-0.9.4.6" /I..\deps\AntTweakBar\include /I..\include /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D GLEW_NO_GLU /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\00_basic\\" /Fd"bin\00_basic_d.pdb" /Gd /TP /analyze- /errorReport:prompt ..\tests\00_basic\main.cc
+     1>Compilación del proyecto terminada "C:\Users\Alvaro\Desktop\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\00_basic.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:00.09

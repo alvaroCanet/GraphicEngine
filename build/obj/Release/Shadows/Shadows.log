@@ -1,0 +1,18 @@
+﻿Build started 20/06/2015 21:13:25.
+     1>Project "D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\Shadows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\deps\glew-1.10.0\include" /I"..\deps\glfw-3.0.3\include" /I"..\deps\glm-0.9.4.6" /I..\deps\AntTweakBar\include /I..\include /Zi /nologo /W3 /WX- /Ox /Oi /Oy- /D GLEW_STATIC /D GLEW_NO_GLU /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\Shadows\\" /Fd"obj\Release\Shadows\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\testsEngine\Shadows\main.cc
+         main.cc
+     1>D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\include\ESAT/core/Tools/Input.h(30): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>..\testsEngine\Shadows\main.cc(138): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\testsEngine\Shadows\main.cc(140): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Shadows.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\deps\AntTweakBar\lib opengl32.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\Shadows.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Shadows.lib" /MACHINE:X86 /SAFESEH obj\Release\Shadows\main.obj
+         D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_deps.lib
+         D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\GLBase_ENGINE.lib
+         Shadows.vcxproj -> D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\bin\Shadows.exe
+     1>Done Building Project "D:\UNIVERSITY\Esat\TERCERO\Prog_Motores_Grafic\Engine\EngineJ.LGeneric\gl_base\build\Shadows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
